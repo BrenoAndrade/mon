@@ -1,0 +1,15 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "parser": "babel-eslint",
+  "rules": {
+    "indent": [2, "tab", { "SwitchCase": 1, "VariableDeclarator": 1 }],
+    "no-tabs": 0,
+    "react/prop-types": 1,
+    "react/jsx-indent": [2, "tab"],
+    "react/jsx-indent-props": [2, "tab"],
+    "import/no-unresolved": 0,
+    "no-undef": 0,
+    "no-unused-vars": 0
+  }
+}
